@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Wisata Bandung',
       theme: ThemeData(textTheme: GoogleFonts.oxygenTextTheme()),
-      home: const MainScreen(),
+      home: MainScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
